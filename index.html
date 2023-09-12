@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="center">
+    <h1>The Calculator</h1>
+    <div class="calc">
+        <input type="text" class="display" />
+       <div class="calc-body">
+       <input type="button" class="calc-button" value="C" onclick="clearInput()">
+       <input type="button" class="calc-button" value="/" onclick="insertCharacter('/')">
+       <input type="button" class="calc-button" value="*" onclick="insertCharacter('*')">
+       <input type="button" class="calc-button" value="-" onclick="insertCharacter('-')">
+       <input type="button" class="calc-button" value="7" onclick="insertCharacter(7)">
+       <input type="button" class="calc-button" value="8" onclick="insertCharacter(8)">
+       <input type="button" class="calc-button" value="9" onclick="insertCharacter(9)">
+       <input type="button" class="calc-button" value="+" onclick="insertCharacter('+')">
+       <input type="button" class="calc-button" value="4" onclick="insertCharacter(4)">
+       <input type="button" class="calc-button" value="5" onclick="insertCharacter(5)">
+       <input type="button" class="calc-button" value="6" onclick="insertCharacter(6)">
+       <input type="button" class="calc-button" value="." onclick="insertCharacter('.')">
+       <input type="button" class="calc-button" value="1" onclick="insertCharacter(1)">
+       <input type="button" class="calc-button" value="2" onclick="insertCharacter(2)">
+       <input type="button" class="calc-button" value="3" onclick="insertCharacter(3)">
+       <input type="button" class="calc-button" value="=" onclick="result()">
+       <input type="button" class="calc-button" value="0" onclick="insertCharacter(0)">
+       <input type="button" class="calc-button" value="Del" onclick="deleteCharacter()">
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+ <script src="index.js" charset="utf-8"></script>
+</body>
+</html>
